@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Secrect Santa Selector</title>
+        <link rel="stylesheet" href="/static/style.css">
     </head>
     <body>
         <h1>Kurek Secret Santa</h1>
@@ -11,10 +12,18 @@
             <h2>Instructions</h2>
             <ol>
                 <li>Enter the names of all participants in the input field below, separated by commas.</li>
+                <textarea id="participants" rows="4" cols="50" placeholder="Enter names here..."></textarea>
+                <br><br>
                 <li>Enter the number of people each participant will be buying gifts for</li>
+                <textarea id="numGifts" rows="1" cols="50" placeholder="Enter number of gifts bought per person here..."></textarea>
+                <br><br>
                 <li>Click the "Select Secret Santa" button to randomly assign each participant a Secret Santa.</li>
-                <li>The assignments will be displayed below the button.</li>
+                <button id="selectButton">Select Secret Santa</button>
+                <br><br>
+                <li>The assignments will open on a separate page after selection.</li>
             </ol>
         </section>
+        <p id="status" role="status" aria-live="polite"></p>
+        <script src="/static/script.js" defer></script>
     </body>
 </html>

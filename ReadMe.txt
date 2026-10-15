@@ -15,3 +15,7 @@ For name selection, number of giftee names will be generaterated when a button i
 
 There will be a logic check upon name selection to ensure the gifter did not draw their own name, and that (if multiple giftees) the giftee is not duplicated. 
     FOr example, if player A is drawing, they cannot be given themselves or multiple of Player B, C etc
+
+Basics:
+Front End will be done with HTML and CSS
+Backend will be done using python.
