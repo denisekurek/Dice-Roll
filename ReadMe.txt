@@ -16,6 +16,9 @@ For name selection, number of giftee names will be generaterated when a button i
 There will be a logic check upon name selection to ensure the gifter did not draw their own name, and that (if multiple giftees) the giftee is not duplicated. 
     FOr example, if player A is drawing, they cannot be given themselves or multiple of Player B, C etc
 
+Big bad - could it be a mirror version of you.They will have all of you skills and abilities. They may even fight like you do. You have to be able to outthink and beat yourself in the final fight.
+    Maybe have 2 stages. A main boss, then a mirror version of youself is a alternate / secret ending.
+
 Basics:
 Front End will be done with HTML and CSS
-Backend will be done using python.
+Backend will be done using python?.
